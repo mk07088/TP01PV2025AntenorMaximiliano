@@ -4,10 +4,15 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
+        <link rel="stylesheet" href="assets/css/styles.css">
     </head>
     <body>
         <h1>contactos para mas info </h1>
         <header>
+            <div class="contenedor">
+                <img src="assets/imagenes/images.jpeg" alt="contacto" class="logo">
+            </div>
+            
            
             <nav>
                 <ul>
@@ -17,14 +22,31 @@
                 </ul>
             </nav>
             
-            <p>
-                instagram:                <br> 
-                twitter:                  <br>
-                facebook:               
+            <main>
+                <form >
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre" id="nombre">
 
-            </p>
+                    <label for="n° de celular">celular</label>
+                    <input type="text" name="celular" id="celular">
+
+
+                    <label for="mensaje">mensaje</label>
+                    <textarea id="mensaje" name="mesaje" rows="4"></textarea>
+                    
+                    <button type="submit">Enviar</button>
+
+
+                </form>
+                
+                
+
+                
+            </main>
+
+            
 
         </header>
-    
+        
     </body>
 </html>
